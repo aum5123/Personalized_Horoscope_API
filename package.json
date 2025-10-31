@@ -1,0 +1,29 @@
+{
+    "name": "personalized-horoscope-api",
+    "version": "1.0.0",
+    "description": "Personalized Horoscope API with user authentication and history",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "mongoose": "^7.5.0",
+      "jsonwebtoken": "^9.0.2",
+      "bcryptjs": "^2.4.3",
+      "express-rate-limit": "^6.10.0",
+      "swagger-ui-express": "^5.0.0",
+      "swagger-jsdoc": "^6.2.8",
+      "dotenv": "^16.3.1",
+      "cors": "^2.8.5",
+      "body-parser": "^1.20.2"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    },
+    "keywords": ["horoscope", "api", "node", "express", "mongodb"],
+    "author": "",
+    "license": "ISC"
+  }
+  
